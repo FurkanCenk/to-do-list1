@@ -1,0 +1,78 @@
+body {
+  background-color: green;
+}
+
+.to-do-wrapper {
+  margin: 20px auto;
+  background-color: white;
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+#to-do-entry-box {
+  float: left;
+}
+
+.add-button {
+  margin: 0 10px;
+  color: white;
+  background-color: #298eec;
+  height: 22px;
+  width: 60px;
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.control-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.clear-completed-button {
+  color: white;
+  background-color: #298eec;
+  height: 25px;
+  width: 140px;
+  border-radius: 15px;
+  border: none;
+}
+
+.empty-button {
+  color: white;
+  background-color: #bb0e0e;
+  border: none;
+  height: 25px;
+  border-radius: 15px;
+  width: 100px;
+}
+
+.save-button {
+  color: white;
+  background-color: green;
+  border: none;
+  height: 25px;
+  border-radius: 15px;
+  width: 100px;
+}
+
+.loadButton {
+  color: white;
+  background-color: green;
+  border: none;
+  height: 25px;
+  border-radius: 15px;
+  width: 100px;
+}
+
+.completed {
+  -webkit-text-decoration-line: line-through;
+  /* Safari */
+  text-decoration-line: line-through;
+}
+/*# sourceMappingURL=style.css.map */
